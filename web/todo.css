@@ -1,0 +1,16 @@
+*{box-sizing:border-box;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans KR', 'Helvetica Neue', Arial}
+body{background:#f4f6f8;margin:0;padding:20px;display:flex;justify-content:center}
+.app{width:100%;max-width:520px;background:#fff;border-radius:8px;padding:20px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+h1{margin:0 0 12px;font-size:20px}
+.input-row{display:flex;gap:8px;margin-bottom:12px}
+input#newTodo{flex:1;padding:10px;border:1px solid #ddd;border-radius:6px}
+button{padding:10px 12px;border:none;background:#2563eb;color:#fff;border-radius:6px;cursor:pointer}
+button:active{transform:translateY(1px)}
+ul#list{list-style:none;padding:0;margin:0}
+ul#list li{display:flex;align-items:center;justify-content:space-between;padding:8px 10px;border-bottom:1px solid #f0f0f0}
+ul#list li.done{opacity:.6;text-decoration:line-through}
+.item-left{display:flex;align-items:center;gap:8px}
+.item-left input[type=checkbox]{width:16px;height:16px}
+.item-actions button{background:#ef4444}
+.controls{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
+.controls button{background:#6b7280}
